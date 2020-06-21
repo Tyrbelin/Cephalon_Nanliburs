@@ -27,7 +27,7 @@ namespace DiscordBot
             //  This is, however, insecure, particularly if you plan to have your code hosted in a public repository.
             //var token = Environment.GetEnvironmentVariable("BOT_TOKEN",EnvironmentVariableTarget.Machine);
             var token = Environment.GetEnvironmentVariable("BOT_TOKEN");
-            await Ping();
+            //await Ping();
             // Some alternative options would be to keep your token in an Environment Variable or a standalone file.
             // var token = Environment.GetEnvironmentVariable("NameOfYourEnvironmentVariable");
             // var token = File.ReadAllText("token.txt");
