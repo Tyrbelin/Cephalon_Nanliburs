@@ -31,3 +31,14 @@ D:\Project2\Cephalon2\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.AssemblyInfo
 D:\Project2\Cephalon2\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.AssemblyInfo.cs
 D:\Project2\Cephalon2\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.dll
 D:\Project2\Cephalon2\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.pdb
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\bin\Debug\netcoreapp2.1\DiscordBot.deps.json
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\bin\Debug\netcoreapp2.1\DiscordBot.runtimeconfig.json
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\bin\Debug\netcoreapp2.1\DiscordBot.runtimeconfig.dev.json
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\bin\Debug\netcoreapp2.1\DiscordBot.dll
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\bin\Debug\netcoreapp2.1\DiscordBot.pdb
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.csprojAssemblyReference.cache
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.csproj.CoreCompileInputs.cache
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.AssemblyInfoInputs.cache
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.AssemblyInfo.cs
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.dll
+E:\Projects2\Cephalon_Nanliburs\DiscordBot\obj\Debug\netcoreapp2.1\DiscordBot.pdb
