@@ -105,7 +105,7 @@
           "lib/netstandard2.0/Discord.Net.WebSocket.dll": {}
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -121,28 +121,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection/3.1.5": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.5": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -1217,7 +1195,7 @@
   },
   "libraries": {
     "Abot/2.0.56": {
-      "sha512": "AbBcL8xBq+sX2Q+Dq9RZlfVrJ4HdG5W5AN4DgTSIAv7xEAM6rwCJPNM550xxcCXZ2x6lcSIkmHtRBk+/nLqBiA==",
+      "sha512": "XxWy+RgXSGOpPKfQ4GXpBm2xTrLL/EGv/HbIg02cAtTr34BWqdmQSJxcX8a3kn0J9L+W13oU/mPZotlDvLchWA==",
       "type": "package",
       "path": "abot/2.0.56",
       "files": [
@@ -1229,7 +1207,7 @@
       ]
     },
     "AngleSharp/0.12.1": {
-      "sha512": "ANb5hGAdRXRRfNkT/04uE8xcK96nrBGBrFp4b5cPxY3n/KSAh+PuaJ/ct0VyxUMRku0JE4wtleXFY+sskOdDZQ==",
+      "sha512": "P2dlrv3WyMeM7YCwD8Zpz4uuAs4KBwbGG9CYQvok0HViaOk0Lb2+H2buaDwVHw+inThGFAbQUC0ypbXtC2biHg==",
       "type": "package",
       "path": "anglesharp/0.12.1",
       "files": [
@@ -1246,7 +1224,7 @@
       ]
     },
     "Discord.Net/2.2.0": {
-      "sha512": "BjmsQP6pi5VMytWR4SEKJHIhcUoIrkB9/tjv760Qg9XleHT5Lh8zQ0bRgMoSZcTep8R66VlXa4vE6E6kqkRT7Q==",
+      "sha512": "D6X8Ap2yLEymJ0wfG8U1oW4zOaZThdjjg9XWrTD1CbEyCQzEEdauynNLEzZhw6b3RXeDdWVCyLdJIrSGObWNpg==",
       "type": "package",
       "path": "discord.net/2.2.0",
       "files": [
@@ -1257,7 +1235,7 @@
       ]
     },
     "Discord.Net.Commands/2.2.0": {
-      "sha512": "NJ6OIN3relfT6mWmid7vNrFkXV6bngdCknHhlJ5DIw1Ojzh8x8x9Dl0lniuCY+pm09xcLBE4Ju7g2eiTFSeVew==",
+      "sha512": "hg3w+pyXOy+I4D5VWfax0IUdnmz8Ji9SOdx+8KjJXqccUVnulx6HkKc5q87BukEbOWEJuyzxo1e+pe+xnW0bgw==",
       "type": "package",
       "path": "discord.net.commands/2.2.0",
       "files": [
@@ -1274,7 +1252,7 @@
       ]
     },
     "Discord.Net.Core/2.2.0": {
-      "sha512": "iAhZem/7iP4yUrKmP1Y9BcwtPoc7NkSm7CKYfh4SiMPW1RVwzctEMqR5VTCWx2N9oPfy0fuAFyG+SE1SJwTU3Q==",
+      "sha512": "0iEjPeqm+Ez481WlRV7IsncfXZoPcae0S2wP14agtZJ6HmT1C8FdPnL/gRmz2Cqs4t8lHukqD9i7nlknaSRkLg==",
       "type": "package",
       "path": "discord.net.core/2.2.0",
       "files": [
@@ -1291,7 +1269,7 @@
       ]
     },
     "Discord.Net.Rest/2.2.0": {
-      "sha512": "KbeiumW/yABukPNiKGNO2S57DfdOrS+aKBnhFfhEayBfsADR90P3j9XV+XvHfyIXcuhZ4+7e38KbRiLesIuM5Q==",
+      "sha512": "tTRjurjFRfSSfGB0kOAOqzagRqXPz473U50tzt19f8OD5/9Z0EyTu5WE898wU135Um+Vb3L8XTvhZHdAmOKhGw==",
       "type": "package",
       "path": "discord.net.rest/2.2.0",
       "files": [
@@ -1308,7 +1286,7 @@
       ]
     },
     "Discord.Net.Webhook/2.2.0": {
-      "sha512": "pYJlrE913etUYBhTuyD3EAWU8OqEM9tnIawFzRlLjx19CxEsZYXYTBeA2oyC23FuYd6j8Ii08lomvTGUr7UwqQ==",
+      "sha512": "LmzBX2BcI5IXbmr4FZpiAWPl2BPgTwyrnZwqDdaYwbH+7FzDODX0PyieE/04D/fAP77MRb4JUvxga0MMLCuftA==",
       "type": "package",
       "path": "discord.net.webhook/2.2.0",
       "files": [
@@ -1323,7 +1301,7 @@
       ]
     },
     "Discord.Net.WebSocket/2.2.0": {
-      "sha512": "pN1wnyqgt70nhRZjYCDUJ54Q/FNFj5PzhvQBDh6yks3sEnvhJDsnl782LLD/Xju1tT2JUWeWDVi3w9HkNd+I+A==",
+      "sha512": "jZb/Ae5w0K0dnGQETcSJu0qA3j5vgG7Dtl27pAkiug90omFs5SB20WNReo25WoJuidPAa6gmaBEWm5RPaBghXw==",
       "type": "package",
       "path": "discord.net.websocket/2.2.0",
       "files": [
@@ -1339,14 +1317,13 @@
         "lib/netstandard2.1/Discord.Net.WebSocket.xml"
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
-      "sha512": "TM5+ytmbqucLH4Fc0EdDHyhKRmNC5EVvkpvvJIkfRdYA2QA38NRcqXsbikU7URRdwhW5gHrBzosrjPRWMDNCBA==",
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "sha512": "K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -1355,7 +1332,7 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
         "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
         "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -1365,7 +1342,7 @@
       ]
     },
     "Microsoft.CSharp/4.7.0": {
-      "sha512": "LJaYhRX5VxTUuD9WUPGD3GpWTgs89SVfoOPvSEdt66tL3lQvny9sR/ZiC3px1qUV5EFebS44i2CBeiliHVaQ3w==",
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
       "path": "microsoft.csharp/4.7.0",
       "files": [
@@ -1433,42 +1410,8 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.5": {
-      "sha512": "7BmwVGpIwsjqQDBFM8iCShEUVs4o8lxaB8cqXRarRvTFyB6aBXbT4TCcR6UmB0sv8ZfGHooD0BCbJVCa8+4H3w==",
-      "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.5": {
-      "sha512": "UbLn5JpPf4qjD2P5UFBSZ4RNqcH65dWh33Yfyms7fZ80vp2K1WQRFM3ni9VkOAC42r1odbbC/KByTPr4Vjy45A==",
-      "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
-      ]
-    },
     "Microsoft.NETCore.App/2.1.0": {
-      "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "sha512": "JNHhG+j5eIhG26+H721IDmwswGUznTwwSuJMFe/08h0X2YarHvA15sVAvUkA/2Sp3W0ENNm48t+J7KTPRqEpfA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.1.0",
       "files": [
@@ -1734,7 +1677,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.1.0": {
-      "sha512": "f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "sha512": "vMn8V3GOp/SPOG2oE8WxswzAWZ/GZmc8EPiB3vc2EZ6us14ehXhsvUFXndYopGNSjCa9OdqC6L6xStF1KyUZnw==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.1.0",
       "files": [
@@ -1748,7 +1691,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
-      "sha512": "p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "sha512": "vBUwNihtLUVS2HhO6WocYfAktRmfFihm6JB8/sJ53caVW+AelvbnYpfiGzaZDpkWjN6vA3xzOKPu9Vu8Zz3p8Q==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
       "files": [
@@ -1762,7 +1705,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
-      "sha512": "fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "sha512": "o0PRql5qOHFEY3d1WvzE+T7cMFKtOsWLMg8L1oTeGNnI4u5AzOj8o6AdZT3y2GxFA1DAx7AQ9qZjpCO2/bgZRw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.1.0",
       "files": [
@@ -1776,7 +1719,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -1793,7 +1736,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/2.1.0": {
-      "sha512": "etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "sha512": "x188gIZXOwFXkPXyGavEcPGcR6RGvjFOES2QzskN4gERZjWPN34qhRsZVMC0CLJfQLGSButarcgWxPPM4vmg0w==",
       "type": "package",
       "path": "microsoft.netcore.targets/2.1.0",
       "files": [
@@ -1938,7 +1881,7 @@
       ]
     },
     "Newtonsoft.Json/12.0.2": {
-      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.2",
       "files": [
@@ -1968,7 +1911,7 @@
       ]
     },
     "NRobotsCore/1.1.2": {
-      "sha512": "8Iy/rQ0JLL5acHZmy9zo9TZ5AkhFzskbr+2bpsLCDNMckQaqkt0uUwE6X06gs7WxE2lzaVfqExsd+nEtKJc3qw==",
+      "sha512": "h0j0SczeLr+SpQYEbWRmZVJMfnqcKzXDFLw8FrybbdTaejkDAS4EIH1DizIzOY+4jWSk1yzux0WsyYmV8/8BKA==",
       "type": "package",
       "path": "nrobotscore/1.1.2",
       "files": [
@@ -2021,7 +1964,7 @@
       ]
     },
     "Serilog/2.8.0": {
-      "sha512": "3jtlNpLFGz16ZEYZ0lohfUlVLspg+DW6kRVNC2rOtie6Xy+fIibtqFSZ6lQRdRKV6ER9WLxg+Q3em6f6ZccJ3A==",
+      "sha512": "zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
       "type": "package",
       "path": "serilog/2.8.0",
       "files": [
@@ -2047,7 +1990,7 @@
       ]
     },
     "Serilog.Enrichers.Thread/3.1.0": {
-      "sha512": "WxIQDBBhUXqd3vPpYOviCWWMzPqVzkjdNuy3D9VWEBNl3ZpnEJkdRA9Ocj4BEvQedlNZm8cxD2AURUe6tpQC5g==",
+      "sha512": "85lWsGRJpRxvKT6j/H67no55SUBsBIvp556TKuBTGhjtoPeq+L7j/sDWbgAtvT0p7u7/phJyX6j35PQ4Vtqw0g==",
       "type": "package",
       "path": "serilog.enrichers.thread/3.1.0",
       "files": [
@@ -2064,7 +2007,7 @@
       ]
     },
     "Serilog.Sinks.Console/3.1.1": {
-      "sha512": "fI0fxK/dcV0yYdAqdrJ4EWS7AnSyvlyDNV0HkZF32AYNHu7TXKnmN6QQyFJiwCHZFp6ghksVAhwh+tHsplHDFA==",
+      "sha512": "56mI5AqvyF/i/c2451nvV71kq370XOCE4Uu5qiaJ295sOhMb9q3BWwG7mWLOVSnmpWiq0SBT3SXfgRXGNP6vzA==",
       "type": "package",
       "path": "serilog.sinks.console/3.1.1",
       "files": [
@@ -2626,7 +2569,7 @@
       ]
     },
     "System.Interactive.Async/4.0.0": {
-      "sha512": "tZH+ECzi1VJ4UvTXO2IoqjzZljTYdz6etnCHsqlR9xQg7pHKbPPwbS9KsJ01Oc8qimjgjqueuoxutQkQVNH3Kg==",
+      "sha512": "tYEzSDQ3rn0G7sGgjcNB91C3dDRJc8m8Lavvu88dwt8FEwKPGZdp/tFs+lQTdqHDV9UItkGIwI8Aa6gGTvzLoQ==",
       "type": "package",
       "path": "system.interactive.async/4.0.0",
       "files": [
@@ -2871,7 +2814,7 @@
       ]
     },
     "System.Linq.Async/4.0.0": {
-      "sha512": "z/YXDIcJd8ghMdY3qDS5WBfK+VydbZ4ZHggd1R6q42A7aIOftgPdsvmI2OKqVP2JKXraN8I0uj1MSpMNK4cbYg==",
+      "sha512": "WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
       "type": "package",
       "path": "system.linq.async/4.0.0",
       "files": [
@@ -2898,7 +2841,7 @@
       ]
     },
     "System.Net.Http/4.1.0": {
-      "sha512": "QxY0x5iEkwaZqjPJC1EoWrjWnDPEcu7nf69tnfOx32BNb3V5cLvHwDOZDC0Vbx6MGGVOpnSHUtP0UY0lvtCvSg==",
+      "sha512": "ULq9g3SOPVuupt+Y3U+A37coXzdNisB1neFCSKzBwo182u0RDddKJF8I5+HfyXqK6OhJPgeoAwWXrbiUXuRDsg==",
       "type": "package",
       "path": "system.net.http/4.1.0",
       "files": [
@@ -3058,7 +3001,7 @@
       ]
     },
     "System.Net.Requests/4.0.11": {
-      "sha512": "IvOLGTTzJ2y5GpSn0ewgypC52TCCD6tYU8MdLedtZQW0VcP241b6sRJ2rLhFFPn5n+biTXXuYGfaTyT3CVUf8Q==",
+      "sha512": "vxGt7C0cZixN+VqoSW4Yakc1Y9WknmxauDqzxgpw/FnBdz4kQNN51l4wxdXX5VY1xjqy//+G+4CvJWp1+f+y6Q==",
       "type": "package",
       "path": "system.net.requests/4.0.11",
       "files": [
@@ -3141,7 +3084,7 @@
       ]
     },
     "System.Net.WebHeaderCollection/4.0.1": {
-      "sha512": "0aLl8yaaH+/jyI0f1Mn9xOvBWWwyOaJm/pR2SPAN2RvxhTD/yxxPaZt5d+2KXAZdPkJOafS4QQ1GaXhZcMN16g==",
+      "sha512": "XX2TIAN+wBSAIV51BU2FvvXMdstUa8b0FBSZmDWjZdwUMmggQSifpTOZ5fNH20z9ZCg2fkV1L5SsZnpO2RQDRQ==",
       "type": "package",
       "path": "system.net.webheadercollection/4.0.1",
       "files": [
@@ -3519,7 +3462,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.0": {
-      "sha512": "6zBxkHYemB0kQiHP3vGXGRXejZVoNVuMn2paUuqKKi5Wyjkxfkp+D0rd0c3VrGwotidRINt6KpOi2smL4VkJKw==",
+      "sha512": "YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.0",
       "files": [
@@ -4147,7 +4090,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.5.0": {
-      "sha512": "16EVkWmNnoH3/Yj9c5s5VuLK5Uv/Dnkc3P2kMmnD7wJcUuvcHVvM2IhVJanf2hHRZUitH+cIkPCPHrBoCXc7Rw==",
+      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.5.0",
       "files": [
@@ -4336,28 +4279,27 @@
     ".NETCoreApp,Version=v2.1": [
       "Abot >= 2.0.56",
       "Discord.Net >= 2.2.0",
-      "Microsoft.Extensions.DependencyInjection >= 3.1.5",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Son\\.nuget\\packages\\": {},
+    "C:\\Users\\alstm\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects2\\Cephalon_Nanliburs\\DiscordBot\\DiscordBot.csproj",
+      "projectUniqueName": "D:\\Project2\\Cephalon2\\DiscordBot\\DiscordBot.csproj",
       "projectName": "DiscordBot",
-      "projectPath": "E:\\Projects2\\Cephalon_Nanliburs\\DiscordBot\\DiscordBot.csproj",
-      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects2\\Cephalon_Nanliburs\\DiscordBot\\obj\\",
+      "projectPath": "D:\\Project2\\Cephalon2\\DiscordBot\\DiscordBot.csproj",
+      "packagesPath": "C:\\Users\\alstm\\.nuget\\packages\\",
+      "outputPath": "D:\\Project2\\Cephalon2\\DiscordBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Appdata\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4388,10 +4330,6 @@
           "Discord.Net": {
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "Microsoft.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "[3.1.5, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
